@@ -1,0 +1,34 @@
+included: # paths to include during linting
+    - CookBookAdvicer
+
+disabled_rules: # rule identifiers to exclude from running
+    - trailing_whitespace
+    - force_cast
+    - force_unwrapping
+    - force_try
+    - empty_enum_arguments
+    - overridden_super_call
+    - sorted_imports
+#    - colon # Default configuration: warning, flexible_right_spacing: false, apply_to_dictionaries: true
+#    - comma # Default configuration: warning
+#    - opening_brace
+#    - todo
+#    - empty_parentheses_with_trailing_closure
+#    - empty_string
+#    - unused_closure_parameter
+#    - unused_setter_value
+#    - unused_optional_binding
+#    - redundant_void_return
+#    - void_return
+#    - redundant_string_enum_value
+#    - redundant_objc_attribute
+#    - closure_parameter_position
+#    - control_statement
+#    - notification_center_detachment
+#    - legacy_constructor
+#    - for_where
+#    - unneeded_break_in_switch
+#    - implicit_getter
+#    - duplicate_imports
+#    - trailing_newline
+
